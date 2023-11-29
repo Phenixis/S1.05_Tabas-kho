@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Interview {
+    display: flex;
+    flex-direction: wrap;
+}
+
+
+main > article > div > article {
+    display: flex;
+    flex-direction: column;
+}
