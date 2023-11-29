@@ -1,0 +1,19 @@
+[class *="bg-primary"] {
+    background-color: #001999;
+}
+
+[class *="border-primary"] {
+    border: 5px solid #001999;
+}
+
+[class *="border-secondary"] {
+    border: 5px solid #FCDD7C;
+}
+
+[class *="border-black"] {
+    border: 5px solid #000000;
+}
+
+[class *="rounded"] {
+    border-radius: 100%;
+}

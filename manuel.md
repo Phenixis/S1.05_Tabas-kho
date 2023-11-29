@@ -6,8 +6,7 @@
 
 ## Insérer une image avec un background
 
-1. Mettez l'image dans un bloc `<figure>`.
-2. Assignez une classe à ce bloc parmi les suivantes :
+1. Assignez une ou plusieurs classes au bloc `<img>` parmi les suivantes :
    - `bg-primary` pour la couleur primaire (Bleu en clair, Jaune en sombre)
    - `bg-secondary` pour la couleur secondaire (Jaune en clair, Bleu en sombre)
    - `rounded` si vous voulez une forme ronde
