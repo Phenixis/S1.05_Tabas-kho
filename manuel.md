@@ -3,6 +3,7 @@
 - [Appliquer plusieurs classes](#appliquer-plusieurs-classes)
 - [Insérer un composant à faire](#insérer-un-composant-à-faire)
 - [Insérer une affiche](#insérer-une-affiche)
+- [Insérer une image et la faire tourner d'un quart de tour](#insérer-une-image-et-la-faire-tourner-dun-quart-de-tour)
 
 ## Insérer une image avec un background
 
@@ -29,5 +30,7 @@ Pour appliquer plusieurs classes à un bloc, il vous suffit d'espacer chacune de
 3. Ajoutez le composant dans le fichier `organisation.md`
 
 ## Insérer une affiche
-1. Insérez l'image dans un `<figure>`
-2. Donnez à cette balise la class `affiche`
+1. Insérez l'image et affectez lui la classe `affiche`
+
+## Insérer une image et la faire tourner d'un quart de tour
+1. Insérer l'image et affectez lui la classe `+90` ou `-90` selon le quart de tour
