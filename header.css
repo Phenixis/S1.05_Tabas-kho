@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header>div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header>div>img {
+    width: 5%;
+    flex-basis: 5%;
+    flex-grow: 1;
+}
+
+header>div>h1 {
+    width: 80%;
+    flex-basis: 70%;
+    flex-grow: 3;
+}
+
+header>div>a {
+    width: 15%;
+    flex-basis: 10%;
+    flex-grow: 1;
+}
+
+header>nav>ul {
+    display: flex;
+}
+
+header>nav>ul>li {
+    list-style: none;
+
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+header>nav>ul>li>a {
+    color: white;
+
+    font-size: 2em;
+}
+
+header>nav>ul>li>input {
+    color: white;
+
+    list-style: none;
+
+    font-size: 2em;
+}
+
