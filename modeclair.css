@@ -3,7 +3,7 @@
 }
 
 [class *="border-primary"] {
-    border: 5px solid #001999;
+    border: 5px solid #0029ff;
 }
 
 [class *="border-secondary"] {
@@ -16,4 +16,20 @@
 
 [class *="rounded"] {
     border-radius: 100%;
+}
+
+[class *="+90"] {
+    transform: rotate(90deg);
+}
+
+[class *="-90"] {
+    transform: rotate(-90deg);
+}
+
+[class *="affiche"] {
+    width: 250px;
+}
+
+[class *="icone"] {
+    width:30px;
 }
